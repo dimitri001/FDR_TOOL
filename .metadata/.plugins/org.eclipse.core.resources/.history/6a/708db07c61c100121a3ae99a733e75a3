@@ -1,0 +1,13 @@
+package org.korso.apps.activity;
+
+public class Activity2 extends MainActivity {
+
+	@Override
+	protected void onCreate() {
+		// TODO Auto-generated method stub
+		super.onCreate();
+		setContentView(R.layout.activity2);
+		
+	}
+
+}
