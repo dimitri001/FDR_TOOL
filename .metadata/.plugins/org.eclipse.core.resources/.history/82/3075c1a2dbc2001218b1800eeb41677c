@@ -25,9 +25,8 @@
         <activity 
             android:name="ArticleListActivity">            
         </activity>
-        <activity  
-            android:theme="@android:style/Theme.Dialog"                  
-            android:name="AboutActivity" > 
+        <activity 
+            android:name="AboutActivity">            
         </activity>
         
     </application>
