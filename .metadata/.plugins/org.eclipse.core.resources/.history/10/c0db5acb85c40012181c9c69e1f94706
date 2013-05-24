@@ -1,0 +1,16 @@
+package org.korso.apps.listactivity;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.widget.SimpleAdapter;
+
+public class MyListActivity2 extends ListActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		SimpleAdapter simpleAdapter = new SimpleAdapter(null, null, 0, null, null);
+	}
+
+	
+}

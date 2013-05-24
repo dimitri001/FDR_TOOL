@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
-<window height="671" maximized="true" width="1012" x="258" y="63">
+<window height="621" maximized="true" width="1012" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="261" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -44,62 +44,22 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/03-Activity/src/org/korso/apps/activity/MainActivity.java" title="MainActivity.java" tooltip="03-Activity/src/org/korso/apps/activity/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03-Activity/src/org/korso/apps/activity/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="961" selectionTopPixel="90"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity2.java" partName="Activity2.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/03-Activity/src/org/korso/apps/activity/Activity2.java" title="Activity2.java" tooltip="03-Activity/src/org/korso/apps/activity/Activity2.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03-Activity/src/org/korso/apps/activity/Activity2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="330" selectionTopPixel="60"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SplashActivity.java" partName="SplashActivity.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java" title="SplashActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="493" selectionTopPixel="151"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="RSS Curso Android Manifest" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/AndroidManifest.xml" title="RSS Curso Android Manifest" tooltip="RSS Curso Android/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/AndroidManifest.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArticleListActivity.java" partName="ArticleListActivity.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java" title="ArticleListActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/04-Intent/src/com/korso/apps/intent/MainActivity.java" title="MainActivity.java" tooltip="04-Intent/src/com/korso/apps/intent/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04-Intent/src/com/korso/apps/intent/MainActivity.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" partName="AboutActivity.java" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java" title="AboutActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="56" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/04-Intent/res/layout/activity_main.xml" title="activity_main.xml" tooltip="04-Intent/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/04-Intent/res/layout/activity_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/03-Activity/res/layout/activity_main.xml" title="activity_main.xml" tooltip="03-Activity/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/03-Activity/res/layout/activity_main.xml"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_splash.xml" partName="activity_splash.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/layout/activity_splash.xml" title="activity_splash.xml" tooltip="RSS Curso Android/res/layout/activity_splash.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/layout/activity_splash.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" partName="dimens.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values/dimens.xml" title="dimens.xml" tooltip="RSS Curso Android/res/values/dimens.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values/dimens.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimensiones.xml" partName="dimensiones.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values/dimensiones.xml" title="dimensiones.xml" tooltip="RSS Curso Android/res/values/dimensiones.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values/dimensiones.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimensiones.xml" partName="dimensiones.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values-ldpi/dimensiones.xml" title="dimensiones.xml" tooltip="RSS Curso Android/res/values-ldpi/dimensiones.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values-ldpi/dimensiones.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" partName="dimens.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values-sw600dp/dimens.xml" title="dimens.xml" tooltip="RSS Curso Android/res/values-sw600dp/dimens.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values-sw600dp/dimens.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" partName="dimens.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values-sw720dp-land/dimens.xml" title="dimens.xml" tooltip="RSS Curso Android/res/values-sw720dp-land/dimens.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values-sw720dp-land/dimens.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" partName="colors.xml" path="C:/Users/HP/Documents/GitHub/Android-Dev/RSS Curso Android/res/values/colors.xml" title="colors.xml" tooltip="RSS Curso Android/res/values/colors.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/RSS Curso Android/res/values/colors.xml"/>
 </editor>
 </editors>
 <views>
@@ -110,7 +70,6 @@
 <viewState isPinned="false">
 <view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="2" org.eclipse.search.resultpage.layout="2"/>
 </viewState>
 </view>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
@@ -122,17 +81,9 @@
 <view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
 <viewState/>
 </view>
-<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
 <view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
 <viewState activate="true" allSessions="true" column2="642" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -150,7 +101,6 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="263" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="609"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -160,14 +110,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
@@ -189,6 +134,9 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="com.android.ide.eclipse.ddms.views.SysInfoView" partName="System Information">
 <viewState/>
@@ -263,7 +211,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="300" ratioRight="700" relationship="2" relative="devices"/>
-<info folder="true" part="ddms-detail" ratio="0.5" ratioLeft="350" ratioRight="350" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.SysInfoView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads"/>
+<info folder="true" part="ddms-detail" ratio="0.5" ratioLeft="350" ratioRight="350" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.EmulatorControlView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads"/>
 <page content="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="Allocation Tracker"/>
 <page content="com.android.ide.eclipse.ddms.views.NetworkStatsView" label="Network Statistics"/>
 <page content="com.android.ide.eclipse.ddms.views.FileExplorerView" label="File Explorer"/>
@@ -385,7 +333,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2651357" ratioLeft="254" ratioRight="704" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.64882946" ratioLeft="388" ratioRight="210" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.8112903" ratioLeft="503" ratioRight="117" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -468,58 +416,39 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.ToolsFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.VariableView" style="1">
-<fastViews>
-<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.ToolsFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.VariableView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
 <view id="org.eclipse.debug.ui.BreakpointView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@cf5103e" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="1">
-<fastViews>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.3"/>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@cf5103e" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="1">&#x0A;<fastViews>&#x0A;<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.debug.internal.ui.ConsoleFolderView" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="org.eclipse.cdt.debug.ui.executablesView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.debug.internal.ui.NavigatorFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="1">
-<fastViews>
-<view id="org.eclipse.debug.ui.DebugView" ratio="0.3"/>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.debug.internal.ui.NavigatorFolderView" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.debug.ui.DebugView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.OutlineFolderView" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.debug.internal.ui.OutlineFolderView" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74959874" ratioLeft="467" ratioRight="156" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74959874" ratioLeft="467" ratioRight="156" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
@@ -530,25 +459,19 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@cf5103e" ratio="0.49962434" ratioLeft="665" ratioRight="666" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder appearance="2" expanded="0">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cf5103e" ratio="0.49962434" ratioLeft="665" ratioRight="666" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.4496788" ratioLeft="210" ratioRight="257" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49962434" ratioLeft="665" ratioRight="666" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49962434" ratioLeft="665" ratioRight="666" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
@@ -565,155 +488,143 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03-Activity/src/org/korso/apps/activity/Activity2.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/03-Activity/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/03-Activity/res/menu/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/03-Activity/src/org/korso/apps/activity/MainActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/RSS Curso Android/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/RSS Curso Android/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values/styles.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/04-Intent/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04-Intent/src/com/korso/apps/intent/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/04-Intent/src/com/korso/apps/intent/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/03-Activity/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/04-Intent/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/03-Activity/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/layout/activity_splash.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values/dimens.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values/dimensiones.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values-ldpi/dimensiones.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values-sw600dp/dimens.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values-sw720dp-land/dimens.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/RSS Curso Android/res/values/colors.xml"/>
 </editors>
-<item historyLabel="main.xml" index="2"/>
-<item historyLabel="03-Activity Manifest" index="1"/>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="688" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="765" y="174"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="842" y="0"/>
 </item>
 <item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="592" y="0"/>
+<position info="not_deleted" x="1442" y="111"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="787" y="0"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="842" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="725" y="0"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="808" y="0"/>
 </item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1396" y="0"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="842" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="949" y="0"/>
+<item historyLabel="MainActivity.java" index="1">
+<position info="not_deleted" x="917" y="22"/>
 </item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1396" y="0"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="41" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="967" y="456"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1349" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1302" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="354" y="50"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="204" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="354" y="50"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="895" y="1"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="912" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="688" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="912" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="688" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1116" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="912" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1116" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="879" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="330" y="16"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="905" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="330" y="16"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1580" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="601" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="Activity2.java" index="0">
-<position info="not_deleted" x="1580" y="0"/>
-</item>
-<item historyLabel="SplashActivity.java" index="4">
-<position info="not_deleted" x="493" y="0"/>
-</item>
-<item historyLabel="RSS Curso Android Manifest" index="5"/>
-<item historyLabel="ArticleListActivity.java" index="6">
+<item historyLabel="AboutActivity.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="RSS Curso Android Manifest" index="5"/>
-<item historyLabel="AboutActivity.java" index="7">
-<position info="not_deleted" x="56" y="13"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="303" y="16"/>
+</item>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="1">
+<position info="not_deleted" x="917" y="22"/>
+</item>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="544" y="41"/>
+</item>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="215" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="544" y="41"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1099" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1007" y="0"/>
+</item>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="283" y="19"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1007" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1299" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1182" y="0"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1771" y="0"/>
+</item>
+<item historyLabel="Activity2.java" index="0">
+<position info="not_deleted" x="1442" y="111"/>
+</item>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="283" y="19"/>
+</item>
+<item historyLabel="SplashActivity.java" index="2">
+<position info="not_deleted" x="1367" y="0"/>
 </item>
 <item historyLabel="RSS Curso Android Manifest" index="5"/>
-<item historyLabel="SplashActivity.java" index="4">
-<position info="not_deleted" x="493" y="0"/>
+<item historyLabel="styles.xml" index="6"/>
+<item historyLabel="RSS Curso Android Manifest" index="5"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="styles.xml" index="6"/>
+<item historyLabel="RSS Curso Android Manifest" index="5"/>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="215" y="0"/>
 </item>
-<item historyLabel="activity_splash.xml" index="8"/>
-<item historyLabel="dimens.xml" index="9"/>
-<item historyLabel="dimensiones.xml" index="10"/>
-<item historyLabel="dimens.xml" index="9"/>
-<item historyLabel="dimensiones.xml" index="11"/>
-<item historyLabel="dimens.xml" index="12"/>
-<item historyLabel="dimens.xml" index="13"/>
-<item historyLabel="dimens.xml" index="9"/>
-<item historyLabel="colors.xml" index="14"/>
-<item historyLabel="dimens.xml" index="9"/>
-<item active="true" historyLabel="dimensiones.xml" index="10"/>
+<item historyLabel="ArticleListActivity.java" index="3">
+<position info="not_deleted" x="810" y="0"/>
+</item>
+<item historyLabel="RSS Curso Android Manifest" index="5"/>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="activity_main.xml" index="11"/>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="activity_main.xml" index="11"/>
+<item historyLabel="activity_main.xml" index="12"/>
+<item historyLabel="activity_main.xml" index="11"/>
+<item historyLabel="activity_main.xml" index="12">
+<position info="not_deleted" x="496" y="147"/>
+</item>
+<item historyLabel="activity_main.xml" index="13"/>
+<item historyLabel="activity_splash.xml" index="14"/>
+<item active="true" historyLabel="activity_main.xml" index="12">
+<position info="not_deleted" x="656" y="149"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ToolsFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@cf5103e"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -723,31 +634,30 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="RSS Curso Android/res/values/colors.xml">
-<persistable path="/RSS Curso Android/res/values/colors.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" tooltip="RSS Curso Android/res/values-sw720dp-land/dimens.xml">
-<persistable path="/RSS Curso Android/res/values-sw720dp-land/dimens.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" tooltip="RSS Curso Android/res/values-sw600dp/dimens.xml">
-<persistable path="/RSS Curso Android/res/values-sw600dp/dimens.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimensiones.xml" tooltip="RSS Curso Android/res/values-ldpi/dimensiones.xml">
-<persistable path="/RSS Curso Android/res/values-ldpi/dimensiones.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimensiones.xml" tooltip="RSS Curso Android/res/values/dimensiones.xml">
-<persistable path="/RSS Curso Android/res/values/dimensiones.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" tooltip="RSS Curso Android/res/values/dimens.xml">
-<persistable path="/RSS Curso Android/res/values/dimens.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_splash.xml" tooltip="RSS Curso Android/res/layout/activity_splash.xml">
 <persistable path="/RSS Curso Android/res/layout/activity_splash.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="03-Activity/res/layout/activity_main.xml">
+<persistable path="/03-Activity/res/layout/activity_main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="04-Intent/res/layout/activity_main.xml">
+<persistable path="/04-Intent/res/layout/activity_main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="04-Intent/src/com/korso/apps/intent/MainActivity.java">
+<persistable path="/04-Intent/src/com/korso/apps/intent/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" tooltip="RSS Curso Android/res/values/styles.xml">
+<persistable path="/RSS Curso Android/res/values/styles.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="RSS Curso Android/AndroidManifest.xml">
+<persistable path="/RSS Curso Android/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity2.xml" tooltip="03-Activity/res/layout/activity2.xml">
+<persistable path="/03-Activity/res/layout/activity2.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java">
 <persistable path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/AboutActivity.java"/>
@@ -755,23 +665,23 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArticleListActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java">
 <persistable path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/ArticleListActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="RSS Curso Android/AndroidManifest.xml">
-<persistable path="/RSS Curso Android/AndroidManifest.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SplashActivity.java" tooltip="RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java">
 <persistable path="/RSS Curso Android/src/org/korso/apps/rsscursoandroid/SplashActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity2.java" tooltip="03-Activity/src/org/korso/apps/activity/Activity2.java">
-<persistable path="/03-Activity/src/org/korso/apps/activity/Activity2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="RSS Curso Android/res/values/strings.xml">
+<persistable path="/RSS Curso Android/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_article_list.xml" tooltip="RSS Curso Android/res/layout/activity_article_list.xml">
+<persistable path="/RSS Curso Android/res/layout/activity_article_list.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="03-Activity/src/org/korso/apps/activity/MainActivity.java">
 <persistable path="/03-Activity/src/org/korso/apps/activity/MainActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="03-Activity/gen/org/korso/apps/activity/R.java">
-<persistable path="/03-Activity/gen/org/korso/apps/activity/R.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Activity2.java" tooltip="03-Activity/src/org/korso/apps/activity/Activity2.java">
+<persistable path="/03-Activity/src/org/korso/apps/activity/Activity2.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="03-Activity/AndroidManifest.xml">
-<persistable path="/03-Activity/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="bg_noise.xml" tooltip="RSS Curso Android/res/drawable/bg_noise.xml">
+<persistable path="/RSS Curso Android/res/drawable/bg_noise.xml"/>
 </file>
 </mruList>
 </workbench>

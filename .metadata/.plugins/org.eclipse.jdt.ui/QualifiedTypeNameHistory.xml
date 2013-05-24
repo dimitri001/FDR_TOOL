@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.R.id"/>
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="org.korso.app.holamundo.R"/>
-<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.R.layout"/>
 <fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
@@ -14,4 +12,9 @@
 <fullyQualifiedTypeName name="org.korso.apps.activity.MainActivity"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.R.id"/>
+<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.AboutActivity"/>
+<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.R.layout"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="org.korso.apps.rsscursoandroid.ArticleListActivity"/>
 </qualifiedTypeNameHistroy>
