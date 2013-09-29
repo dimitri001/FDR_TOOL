@@ -1,0 +1,566 @@
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Seleccionar BBDDD
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Inicio Sesion
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Seleccionar BBDDD
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Inicio Sesion
+
+2013-04-08 14:44:45 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-04-08 14:44:46 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-04-08 14:45:05 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 14:45:07 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 14:45:09 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 14:45:18 [ERROR] [model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:514)] 
+Error al consultar el listado de la Estructura de Atributo
+java.sql.SQLException: Column Index out of range, 9 > 8. 
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:690)
+	at com.mysql.jdbc.ResultSet.getBoolean(ResultSet.java:1468)
+	at model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:508)
+	at controller.ConsultaController.listaEstructuraAtributos(ConsultaController.java:66)
+	at view.ver.modificar.VerModificarElementoEspecifico.do_btnModificar_actionPerformed(VerModificarElementoEspecifico.java:302)
+	at view.ver.modificar.VerModificarElementoEspecifico$6.actionPerformed(VerModificarElementoEspecifico.java:217)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 14:52:37 [ERROR] [model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:514)] 
+Error al consultar el listado de la Estructura de Atributo
+java.sql.SQLException: Column Index out of range, 9 > 8. 
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:690)
+	at com.mysql.jdbc.ResultSet.getBoolean(ResultSet.java:1468)
+	at model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:508)
+	at controller.ConsultaController.listaEstructuraAtributos(ConsultaController.java:66)
+	at view.ver.modificar.VerModificarElementoEspecifico.do_btnModificar_actionPerformed(VerModificarElementoEspecifico.java:302)
+	at view.ver.modificar.VerModificarElementoEspecifico$6.actionPerformed(VerModificarElementoEspecifico.java:217)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 15:39:22 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 15:39:22 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 15:39:25 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 15:39:32 [ERROR] [model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:514)] 
+Error al consultar el listado de la Estructura de Atributo
+java.sql.SQLException: Column Index out of range, 9 > 8. 
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:690)
+	at com.mysql.jdbc.ResultSet.getBoolean(ResultSet.java:1468)
+	at model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:508)
+	at controller.ConsultaController.listaEstructuraAtributos(ConsultaController.java:66)
+	at view.ver.modificar.VerModificarElementoEspecifico.do_btnModificar_actionPerformed(VerModificarElementoEspecifico.java:302)
+	at view.ver.modificar.VerModificarElementoEspecifico$6.actionPerformed(VerModificarElementoEspecifico.java:217)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 15:39:49 [ERROR] [model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:514)] 
+Error al consultar el listado de la Estructura de Atributo
+java.sql.SQLException: Column Index out of range, 9 > 8. 
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.ResultSet.checkColumnBounds(ResultSet.java:690)
+	at com.mysql.jdbc.ResultSet.getBoolean(ResultSet.java:1468)
+	at model.ConsultasBBDD.consultaListaEstructuraAtributos(ConsultasBBDD.java:508)
+	at controller.ConsultaController.listaEstructuraAtributos(ConsultaController.java:66)
+	at view.ver.modificar.VerModificarElementoEspecifico.do_btnModificar_actionPerformed(VerModificarElementoEspecifico.java:302)
+	at view.ver.modificar.VerModificarElementoEspecifico$6.actionPerformed(VerModificarElementoEspecifico.java:217)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 16:21:43 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 16:21:44 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 16:21:46 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 16:22:11 [ERROR] [model.ActualizarElemento.actualizarElementosSistema(ActualizarElemento.java:374)] 
+Error actualizar Elementos Sistema id = 9. 
+java.sql.SQLException: No value specified for parameter 4
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:910)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1575)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at model.ActualizarElemento.actualizarElementosSistema(ActualizarElemento.java:347)
+	at controller.VerModificarController.modificarElementoSistema(VerModificarController.java:57)
+	at view.modificar.ModificarElementoEspecifico.do_btnGuardar_actionPerformed(ModificarElementoEspecifico.java:492)
+	at view.modificar.ModificarElementoEspecifico$5.actionPerformed(ModificarElementoEspecifico.java:427)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 16:24:27 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 16:24:27 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 16:24:30 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 16:28:13 [ERROR] [model.ActualizarElemento.actualizarElementosSistema(ActualizarElemento.java:374)] 
+Error actualizar Elementos Sistema id = 9. 
+java.util.NoSuchElementException
+	at java.util.AbstractList$Itr.next(Unknown Source)
+	at model.ActualizarElemento.actualizarElementosSistema(ActualizarElemento.java:353)
+	at controller.VerModificarController.modificarElementoSistema(VerModificarController.java:57)
+	at view.modificar.ModificarElementoEspecifico.do_btnGuardar_actionPerformed(ModificarElementoEspecifico.java:492)
+	at view.modificar.ModificarElementoEspecifico$5.actionPerformed(ModificarElementoEspecifico.java:427)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-08 16:34:15 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 16:34:15 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 16:34:19 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 17:20:47 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 17:20:47 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 17:20:50 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 17:23:58 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 17:23:59 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 17:24:01 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 17:41:11 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 17:41:11 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 17:41:14 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 18:12:46 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 18:12:47 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 18:12:50 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 18:23:52 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 18:23:53 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 18:23:55 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 18:31:46 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 18:31:46 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 18:31:49 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-04-08 18:33:17 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-04-08 18:33:27 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 18:33:27 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 18:33:30 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 19:03:13 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 19:03:13 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 19:03:16 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 19:16:14 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 19:16:14 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 19:16:16 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Estructura Atributos
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-04-08 19:17:55 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-04-08 19:51:07 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-08 19:51:07 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-08 19:51:10 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-08 20:31:56 [ERROR] [model.BorrarElemento.eliminarSeleccionFabricante(BorrarElemento.java:92)] 
+Error eliminar Fabricante id = 1. 
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`test1`.`modelo`, CONSTRAINT `fk_Modelo_Fabricante` FOREIGN KEY (`idFabricante`) REFERENCES `fabricante` (`idFabricante`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at model.BorrarElemento.eliminarSeleccionFabricante(BorrarElemento.java:80)
+	at controller.BajaController.eliminarFabricante(BajaController.java:19)
+	at view.baja.BajaFabricante.do_btnBaja_actionPerformed(BajaFabricante.java:138)
+	at view.baja.BajaFabricante$3.actionPerformed(BajaFabricante.java:100)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)

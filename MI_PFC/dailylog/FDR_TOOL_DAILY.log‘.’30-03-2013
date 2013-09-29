@@ -1,0 +1,216 @@
+
+2013-03-28 13:53:58 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Error Baja
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Error Baja
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Elemento del Sistema Especifico
+
+2013-03-28 13:53:59 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-03-28 13:54:01 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-03-28 13:59:32 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 13:59:34 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 13:59:38 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 14:24:27 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 14:24:27 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 14:24:44 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 0
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 1
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 2
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 3
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 4
+
+2013-03-28 14:32:11 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Elemento del Sistema Especifico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Sistema Especifico
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-03-28 14:32:39 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-03-28 14:46:39 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 14:46:39 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 14:46:42 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Fabricante
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Fabricante
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Inicio Sesion
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-03-28 14:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-03-28 14:48:25 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 14:48:25 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 14:48:29 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 15:01:29 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 15:01:29 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 15:01:32 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 15:04:02 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 15:04:02 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 15:04:05 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 15:05:46 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 15:05:46 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 15:05:49 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 15:05:53 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Modelo
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-03-28 15:07:48 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-03-28 17:50:22 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-03-28 17:50:24 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-03-28 17:50:28 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente

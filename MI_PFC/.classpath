@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="C:/UNI/UNI/PFC/Mi PFC/SW/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="forms-1.3.0.jar" sourcepath="forms-1.3.0-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="G:/Copiar a portatil HP/Librerias JAR/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="G:/Copiar a portatil HP/Librerias JAR/slf4j-api-1.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="G:/Copiar a portatil HP/Librerias JAR/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

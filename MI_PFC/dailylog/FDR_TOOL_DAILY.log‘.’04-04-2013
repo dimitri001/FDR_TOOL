@@ -1,0 +1,54 @@
+
+2013-04-04 20:46:49 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-04 20:46:49 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Seleccionar BBDDD
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Mensaje
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Inicio Sesion
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-04-04 20:47:27 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
+
+2013-04-04 20:48:40 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-04 20:48:40 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-04 20:48:43 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-04 20:50:39 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-04 20:53:07 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-04 20:53:07 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-04 20:53:10 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-04 20:53:19 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-04 20:53:19 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-04 20:53:22 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente

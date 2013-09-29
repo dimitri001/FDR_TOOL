@@ -1,0 +1,265 @@
+
+2013-04-13 00:23:13 [INFO ] [view.inicio.IniciarSesion.do_btnAceptar_actionPerformed(IniciarSesion.java:102)] 
+El usuario test va a iniciar sesión
+
+2013-04-13 00:23:13 [INFO ] [view.inicio.IniciarSesion.propertyChange(IniciarSesion.java:123)] 
+El usuario test ha iniciado sesión
+
+2013-04-13 00:23:44 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-13 00:24:13 [INFO ] [model.ConexionBBDD.crearEstructuraBBDD(ConexionBBDD.java:216)] 
+crearEstructuraBBDD bbdd usada = test
+
+2013-04-13 00:25:34 [INFO ] [view.inicio.SeleccionarBBDD.mensajeUsarBBDD(SeleccionarBBDD.java:182)] 
+La base de datos test1 ha sido seleccionada correctamente
+
+2013-04-13 00:27:05 [ERROR] [model.GuardarElemento.insertarSerie(GuardarElemento.java:196)] 
+Error al insertar una Serie
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`test1`.`serie`, CONSTRAINT `fk_Serie_Modelo1` FOREIGN KEY (`idModelo`, `idFabricante`) REFERENCES `modelo` (`idModelo`, `idFabricante`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at model.GuardarElemento.insertarSerie(GuardarElemento.java:187)
+	at controller.AltaController.guardarSerie(AltaController.java:41)
+	at view.alta.AltaSerie.do_btnGuardar_actionPerformed(AltaSerie.java:300)
+	at view.alta.AltaSerie$5.actionPerformed(AltaSerie.java:188)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 0
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 1
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 2
+
+2013-04-13 00:30:12 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = null
+
+2013-04-13 00:30:19 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 0
+
+2013-04-13 00:30:19 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = VARCHAR(45)
+
+2013-04-13 00:30:27 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 1
+
+2013-04-13 00:30:27 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = INT
+
+2013-04-13 00:30:29 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 0
+
+2013-04-13 00:30:29 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = INT
+
+2013-04-13 00:30:41 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:414)] 
+Alta Elemento Especifico indice de tabla ind= 2
+
+2013-04-13 00:30:41 [INFO ] [view.alta.AltaElementoEspecifico$8.actionPerformed(AltaElementoEspecifico.java:415)] 
+Alta Elemento Especifico listaContenedorVisualAtributoElemento.get(ind).getStrCbTipo() = VARCHAR(45)
+
+2013-04-13 00:32:10 [ERROR] [model.BorrarElemento.eliminarSeleccionSerie(BorrarElemento.java:155)] 
+Error eliminar Serie id = 1. 
+com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`test1`.`estructura_frame`, CONSTRAINT `fk_Estructura_Frame_Serie1` FOREIGN KEY (`idSerie`, `idModelo`, `idFabricante`) REFERENCES `serie` (`idSerie`, `idModelo`, `idFabricante`) ON DELETE NO )
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3283)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1332)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1604)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1519)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1504)
+	at model.BorrarElemento.eliminarSeleccionSerie(BorrarElemento.java:144)
+	at controller.BajaController.eliminarSerie(BajaController.java:30)
+	at view.baja.BajaSerie.do_btnBaja_actionPerformed(BajaSerie.java:217)
+	at view.baja.BajaSerie$6.actionPerformed(BajaSerie.java:186)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$000(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.awt.EventQueue$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.awt.EventQueue$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Elementos de Sistema Especifico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Modificar Elemento del Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Elementos de Sistema Específico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Ver/Modificar Fabricante
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Serie
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Error Baja
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Fabricante
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Fabricante
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Modelo
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Error Baja
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame 
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Baja Fabricante
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Sistema Especifico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Elemento del Sistema Especifico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Sistema Especifico
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Manual de Referencia
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Serie
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame Alta Modelo
+
+2013-04-13 02:48:09 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:397)] 
+Cerrando Frame FDR TOOL
+
+2013-04-13 02:48:10 [INFO ] [view.VentanaPrincipal.cerrar(VentanaPrincipal.java:403)] 
+Cerrando Conexion de BBDD
