@@ -30,6 +30,9 @@
             android:name="AboutActivity" > 
         </activity>
         
+         <activity 
+            android:name="MyProgressBarActivity">            
+        </activity>
     </application>
 
 </manifest>

@@ -61,7 +61,8 @@ public final class R {
     public static final class layout {
         public static final int activity_about=0x7f030000;
         public static final int activity_article_list=0x7f030001;
-        public static final int activity_splash=0x7f030002;
+        public static final int activity_progress_bar=0x7f030002;
+        public static final int activity_splash=0x7f030003;
     }
     public static final class menu {
         public static final int splash=0x7f0a0000;

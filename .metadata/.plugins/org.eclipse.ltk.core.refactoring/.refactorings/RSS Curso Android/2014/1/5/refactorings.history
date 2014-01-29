@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.korso.apps.rsscursoandroid.MyProgressBar&apos; to &apos;MyProgressBarActivity&apos;&#x0D;&#x0A;- Original project: &apos;RSS Curso Android&apos;&#x0D;&#x0A;- Original element: &apos;org.korso.apps.rsscursoandroid.MyProgressBar&apos;&#x0D;&#x0A;- Renamed element: &apos;org.korso.apps.rsscursoandroid.MyProgressBarActivity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyProgressBar&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.korso.apps.rsscursoandroid{MyProgressBar.java[MyProgressBar" matchStrategy="1" name="MyProgressBarActivity" qualified="false" references="true" similarDeclarations="false" stamp="1391014011314" textual="false" version="1.0"/>
+</session>
