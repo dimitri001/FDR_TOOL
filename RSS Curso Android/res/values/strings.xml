@@ -41,4 +41,26 @@ Sección 1.10.33 de "de Finibus Bonorum et Malorum", escrito por Cicero en el 45
 
     <string name="al_about">Acerca de</string>
     
+    
+    <string-array name="prueba_pais">
+        <item >España</item>
+        <item >Italia</item>
+        <item >Suecia</item>
+        <item >Denmark</item>
+        <item >France</item>
+        <item >Ecuador</item>
+        <item >Colombia</item>
+    </string-array>
+    
+	<string-array name="prueba_capital">
+        <item >Madrid</item>
+        <item >Roma</item>
+        <item >Estocolmo</item>
+        <item >Kovenhaun</item>
+        <item >Quito</item>
+        <item >Bogotá</item>
+    </string-array>
+    
 </resources>
+
+

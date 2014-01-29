@@ -33,9 +33,17 @@ public class MainActivity extends Activity implements OnClickListener {
 		//intent.setData(Uri.parse("http://www.francho.org"));
 		
 		// Geo (maps)
-		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:41.656313,-0.877351"));
+		//Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:41.656313,-0.877351"));
         
-		startActivity(intent);
+		//Sending a text a simple example
+		 Intent intent = new Intent(Intent.ACTION_SEND);
+         intent.setType("text/plain");
+
+         intent.putExtra(Intent.EXTRA_SUBJECT, "asunto de prueba");
+
+         intent.putExtra(Intent.EXTRA_TEXT, "probando el envio");
+         
+         startActivity(intent);
 		
 	}
 

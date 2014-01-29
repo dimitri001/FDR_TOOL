@@ -17,6 +17,7 @@ public class Activity2 extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity2);
+		Log.d(TAG,"onCreate");
 		
 		Button btn = (Button) findViewById(R.id.button1);
 		btn.setOnClickListener(this);
@@ -45,11 +46,11 @@ public class Activity2 extends Activity implements OnClickListener {
 
 		@Override
 		protected void onStart() {
+			super.onStart();
 			String text = getIntent().getStringExtra("EXTRA_TEXTO");
 			Toast toast = Toast.makeText(this, text, Toast.LENGTH_LONG);
 			toast.show();
 			Log.d(TAG,"onStart");
-			super.onStart();
 		}
 
 

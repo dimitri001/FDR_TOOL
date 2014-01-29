@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d(TAG,"onCreate");
         
         texto = (TextView) findViewById(R.id.texto);
         texto.setOnClickListener(new OnClickListener() {
@@ -28,7 +29,8 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Context context = MainActivity.this;
 				Intent intent = new Intent(context, Activity2.class);
-				intent.putExtra("EXTRA_TEXTO", texto.getText());
+				//here we put an extra parameter to put in the activity called 
+				intent.putExtra("EXTRA_TEXTO", texto.getText()+" Texto Parámetro");
 				startActivity(intent);
 				
 			}
@@ -73,7 +75,7 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+		return true;
     }
     
 }

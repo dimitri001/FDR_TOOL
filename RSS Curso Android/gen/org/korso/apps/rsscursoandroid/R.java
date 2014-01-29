@@ -8,6 +8,10 @@
 package org.korso.apps.rsscursoandroid;
 
 public final class R {
+    public static final class array {
+        public static final int prueba_capital=0x7f080001;
+        public static final int prueba_pais=0x7f080000;
+    }
     public static final class attr {
     }
     public static final class color {
@@ -60,7 +64,7 @@ public final class R {
         public static final int activity_splash=0x7f030002;
     }
     public static final class menu {
-        public static final int splash=0x7f090000;
+        public static final int splash=0x7f0a0000;
     }
     public static final class string {
         public static final int about_license=0x7f070008;
@@ -96,10 +100,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
+        public static final int AppTheme=0x7f090001;
     }
 }
