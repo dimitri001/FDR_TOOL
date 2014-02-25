@@ -1,0 +1,21 @@
+package org.korso.apps.widget;
+
+import org.korso.apps.persistencia.db.FeedsContract.UsersTable;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.support.v4.widget.SimpleCursorAdapter;
+
+public class MySimpleCursorAdapter  extends SimpleCursorAdapter{
+	
+	private Context context;		
+	
+	public MySimpleCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to, int flags){
+		
+		super(context, layout, c, from, to, flags);
+		this.context = context;
+		
+		
+	}
+
+}

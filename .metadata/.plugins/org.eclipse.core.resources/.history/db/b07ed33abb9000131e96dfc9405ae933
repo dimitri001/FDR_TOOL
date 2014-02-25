@@ -1,0 +1,96 @@
+package org.korso.apps.rsscursoandroid;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.korso.apps.rsscursoandroid.adapter.MyCustomAdapter;
+
+
+import android.app.ListActivity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class ArticleListActivity extends ListActivity implements OnClickListener  {
+
+	TextView textAbout;
+	
+	private String[] headers;
+	private String[] paragraphs;
+	private String[] dates;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_article_list);
+		textAbout = (TextView) findViewById(R.id.tvAbout);
+		textAbout.setOnClickListener(this);
+		
+		ArrayList< HashMap<String, String>> data = new ArrayList< HashMap<String, String>>();
+		
+		ListView listView =(ListView) findViewById(android.R.id.list);
+		
+		String[] headers = getResources().getStringArray(R.array.prueba_capital);
+		String[] paragraphs = getResources().getStringArray(R.array.prueba_pais);
+		String[] dates = getResources().getStringArray(R.array.prueba_pais);
+		String[] images = getResources().getStringArray(R.array.prueba_imagen);
+		
+
+		
+		for (int x= 0; x<headers.length; x++){
+			HashMap<String, String> entrada = new HashMap<String, String>();
+			entrada.put("header", headers[x]);
+			entrada.put("paragraph", paragraphs[x]);
+			entrada.put("date", dates[x]);
+			entrada.put("image", images[x]);
+			
+			data.add(entrada);			
+		}
+		
+		//int layout = R.layout.my_list_row_layout;
+		int layout = R.layout.row_layout;
+		
+		
+		MyCustomAdapter adapter = new MyCustomAdapter(this,layout, data);
+		  //setting the adapter
+		setListAdapter(adapter);
+		
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch(v.getId()){
+		case R.id.tvAbout:
+				Context context =this;
+				Intent intent = new Intent(context, AboutActivity.class);
+				startActivity(intent);
+			break;
+		}
+			
+		
+	}
+
+	@Override
+	protected void onListItemClick(ListView l, View v, int position, long id) {
+		super.onListItemClick(l, v, position, id);
+		
+		@SuppressWarnings("unchecked")
+		String text = ((HashMap<String,String>) l.getItemAtPosition(position)).get("header")+" "+
+		((HashMap<String,String>) l.getItemAtPosition(position)).get("paragraph");
+		
+		Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+		
+		
+	}
+	
+	//With this when the return key is pressed the app is closed from this view
+	@Override public void onBackPressed(){ 
+		moveTaskToBack(true); 
+	}
+	
+}

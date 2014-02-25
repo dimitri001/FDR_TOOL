@@ -61,6 +61,14 @@ Sección 1.10.33 de "de Finibus Bonorum et Malorum", escrito por Cicero en el 45
         <item >Bogotá</item>
     </string-array>
     
+	<string-array name="prueba_imagen">
+        <item >android_robot_peque</item>
+        <item >android_robot_peque</item>
+        <item >android_robot_peque</item>
+        <item >android_robot_peque</item>
+        <item >android_robot_peque</item>
+        <item >android_robot_peque</item>
+    </string-array>
 </resources>
 
 

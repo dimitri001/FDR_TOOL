@@ -1,0 +1,25 @@
+package org.korso.apps.persistencia.db;
+
+import android.provider.BaseColumns;
+
+public class FeedsContract {
+	
+	public static final String DB_NAME ="users_db";
+
+	private FeedsContract(){}
+	
+	//Implementing BaseColumns we make that our new class has an _id used in android
+	public static class UsersTable implements BaseColumns{
+		
+		private UsersTable(){}
+		
+		public static final String TABLE_NAME = "users";		
+		public static final String USERNAME ="username";
+		public static final String EMAIL="email";
+		public static final String DATE="date";
+		
+	}
+	
+	
+	
+}

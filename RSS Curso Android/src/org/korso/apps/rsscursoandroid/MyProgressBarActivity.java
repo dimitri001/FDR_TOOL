@@ -1,11 +1,24 @@
 package org.korso.apps.rsscursoandroid;
 
+import java.util.List;
+import java.util.Random;
+
+import org.korso.apps.rsscursoandroid.db.FeedsContract.FeedsTable;
+import org.korso.apps.rsscursoandroid.db.MyDbHelper;
+
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.widget.SimpleCursorAdapter;
+import android.text.format.Time;
+import android.util.Log;
+import android.util.Pair;
 import android.widget.ProgressBar;
 
 public class MyProgressBarActivity extends Activity {
@@ -21,13 +34,14 @@ public class MyProgressBarActivity extends Activity {
     private long fileSize = 0;
     
     Context context = this;
+    
+
+	private static final String TAG = "MyProgressBarActivity CicloActivity";
 	
 	protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        setContentView(R.layout.activity_splash);
-        //mProgress = (ProgressBar) findViewById(R.id.progress_bar);
-        
+        setContentView(R.layout.activity_splash);        
      // prepare for a progress bar dialog   
         
         startBarThread();
@@ -52,7 +66,7 @@ public class MyProgressBarActivity extends Activity {
                  
                     // your computer is too fast, sleep 1 second
                     try {
-                    	Thread.sleep(100);
+                    	Thread.sleep(1);
   				  	} catch (InterruptedException e) {
   				  		e.printStackTrace();
   				  	}
@@ -66,13 +80,14 @@ public class MyProgressBarActivity extends Activity {
                     });
                 }         
                 
+                createDataFeeds();
                 
              // ok, file is downloaded,
 				if (mProgressStatus >= 100) {
  
 					// sleep 2 seconds, so that you can see the 100%
 					try {
-						Thread.sleep(1000);
+						Thread.sleep(10);
 						goToArticleList();
 					} catch (InterruptedException e) {
 						e.printStackTrace();
@@ -118,9 +133,49 @@ public class MyProgressBarActivity extends Activity {
  
 	}
 	
+	//Ceration of the database for the feeds
+	public void createDataFeeds(){
+
+		final MyDbHelper helper = new MyDbHelper(this);
+		final SQLiteDatabase db = helper.getWritableDatabase();
+		
+		ContentValues values = new ContentValues();
+		
+		int random = (int )(Math.random() * 50 + 1);
+		
+		values.put(FeedsTable.TITLE, "El ejercicio que te prepara para todos los deportes: la zancada perfecta");
+		values.put(FeedsTable.LINK_URL, "http://www.sportlife.es/deportes/articulo/ejercicio-prepara-todos-deportes-zancada-perfecta"+random);
+		values.put(FeedsTable.IMAGE_URL, "http://estaticosv2.sportlife.es/rcs/articles/8882/thumb/zancada-perfecta-perfil-correcto_thumb_d.jpg"+random);
+		values.put(FeedsTable.DATE, "Fri, 21 Feb 2014 11:17:00 +0100");
+		values.put(FeedsTable.CONTENT, "La zancada es un movimiento con transferencia a cualquier deporte, pero hay que saber ejecutarla correctamente. Te explicamos cómo evitar fallos y conseguir una zancada perfecta...");
+		long id = db.insert(FeedsTable.TABLE_NAME,null, values);
+
+		
+		if (!db.getAttachedDbs().isEmpty()){
+			for (int i=0; i<10; i++){
+				random = (int )(Math.random() * 50 + 1);
+				values.put(FeedsTable.TITLE, "El ejercicio que te prepara para todos los deportes: la zancada perfecta");
+				values.put(FeedsTable.LINK_URL, "http://www.sportlife.es/deportes/articulo/ejercicio-prepara-todos-deportes-zancada-perfecta"+random);
+				values.put(FeedsTable.IMAGE_URL, "http://estaticosv2.sportlife.es/rcs/articles/8882/thumb/zancada-perfecta-perfil-correcto_thumb_d.jpg"+random);
+				values.put(FeedsTable.DATE, "Fri, 21 Feb 2014 11:17:00 +0100");
+				values.put(FeedsTable.CONTENT, "La zancada es un movimiento con transferencia a cualquier deporte, pero hay que saber ejecutarla correctamente. Te explicamos cómo evitar fallos y conseguir una zancada perfecta...");
+				id = db.insert(FeedsTable.TABLE_NAME,null, values);
+				
+			}	
+				
+		}
+		
+		
+		db.close();
+		
+	}
+	
 	public void goToArticleList(){
 		
 		Intent intent = new Intent(context, ArticleListActivity.class);
 		startActivity(intent);
+		finish();
 	}
+	
+		
 }

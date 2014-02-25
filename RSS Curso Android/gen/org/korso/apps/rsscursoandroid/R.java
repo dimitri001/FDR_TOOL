@@ -10,6 +10,7 @@ package org.korso.apps.rsscursoandroid;
 public final class R {
     public static final class array {
         public static final int prueba_capital=0x7f080001;
+        public static final int prueba_imagen=0x7f080002;
         public static final int prueba_pais=0x7f080000;
     }
     public static final class attr {
@@ -50,11 +51,15 @@ public final class R {
         public static final int about_subtitle=0x7f060001;
         public static final int about_title=0x7f060000;
         public static final int about_version=0x7f060002;
-        public static final int action_settings=0x7f060009;
+        public static final int action_settings=0x7f06000d;
+        public static final int date=0x7f06000c;
+        public static final int header=0x7f060009;
         public static final int imageView1=0x7f060006;
         public static final int imageView2=0x7f060005;
         public static final int linearLayout1=0x7f060004;
         public static final int linearLayout2=0x7f060007;
+        public static final int row_image=0x7f06000b;
+        public static final int text=0x7f06000a;
         public static final int tvAbout=0x7f060003;
         public static final int tvGoArticleList=0x7f060008;
     }
@@ -63,6 +68,8 @@ public final class R {
         public static final int activity_article_list=0x7f030001;
         public static final int activity_progress_bar=0x7f030002;
         public static final int activity_splash=0x7f030003;
+        public static final int my_list_row_layout=0x7f030004;
+        public static final int row_layout=0x7f030005;
     }
     public static final class menu {
         public static final int splash=0x7f0a0000;

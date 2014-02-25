@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/android_blue_water_0_peque" />
+
+   	<TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        android:text="TextView" />
+   	
+   	 <Button 
+        android:id="@+id/btnColor" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="@string/text_button">
+    </Button>
+
+   	 <org.korso.apps.listactivity.time.RelativeTimeTextView
+   	     android:id="@+id/timeStamp"
+   	     android:layout_width="wrap_content"
+   	     android:layout_height="wrap_content"
+   	     android:text="TimeStamp" />
+
+</LinearLayout> 

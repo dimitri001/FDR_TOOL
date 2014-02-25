@@ -1,0 +1,5 @@
+package org.korso.apps.listactivity.time;
+
+public class RelativeTimeTextView {
+
+}

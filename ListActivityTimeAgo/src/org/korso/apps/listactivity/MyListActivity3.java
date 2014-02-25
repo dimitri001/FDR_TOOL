@@ -1,0 +1,22 @@
+package org.korso.apps.listactivity;
+
+
+import android.app.ListActivity;
+import android.os.Bundle;
+
+public class MyListActivity3 extends ListActivity {
+	public final String[] Colors = { "Blue", "Green", "Black" };
+	 /** Called when the activity is first created. */
+	 @Override
+	 public void onCreate(Bundle savedInstanceState) {
+	  super.onCreate(savedInstanceState);
+	  // setContentView(R.layout.main);
+	  // instantiate our custom adapter
+	  //MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row_layout, getResources().getStringArray(R.array.datos));
+	  //MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row, Colors);
+	  MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row_layout, Colors);
+	  //setting the adapter
+	  setListAdapter(adapter);
+	 }
+	 
+	}

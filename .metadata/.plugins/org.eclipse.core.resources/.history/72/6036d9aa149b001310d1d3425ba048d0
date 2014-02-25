@@ -1,0 +1,5 @@
+package org.korso.apps.widget;
+
+public class MySimpleCursorAdapter  extends SimpleCursorAdapter{
+
+}
