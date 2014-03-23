@@ -1,0 +1,26 @@
+package org.korso.apps.broadcast;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
+
+/*
+ * Creating our own broadcast, this helps to create notifiation
+ * because an activity is receiving data so this can help us to say so.
+ * Other way of doing this is by observer but this is another option
+ * 
+ * */
+public class MyBroadcastReceiver2 extends BroadcastReceiver {
+
+	private static final String TAG = "MyBroadcastReceiver2";
+
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		Log.d(TAG, "onReceive from MyBroadcast2");
+		
+		
+	}
+
+	
+}
