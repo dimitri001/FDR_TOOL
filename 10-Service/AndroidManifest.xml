@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.korso.apps.service2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+         <activity
+            android:name="org.korso.apps.service.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <service android:name="org.korso.apps.service.MyService">
+             <intent-filter>
+                 <action android:name="org.korso.android.ACTION_SERVICE"/>
+             </intent-filter>
+         </service>
+         
+         <service android:name="org.korso.apps.service.MyIntentService">
+             <intent-filter>
+                 <action android:name="org.korso.android.ACTION_INTENT_SERVICE"/>
+             </intent-filter>
+         </service>
+    </application>
+
+</manifest>

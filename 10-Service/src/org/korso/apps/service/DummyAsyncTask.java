@@ -1,0 +1,23 @@
+package org.korso.apps.service;
+
+import android.graphics.Bitmap;
+import android.os.AsyncTask;
+
+public class DummyAsyncTask extends AsyncTask<Void, Void, Void> {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected Void doInBackground(Void... arg0) {
+		Dummy heavyTask = new Dummy();
+		heavyTask.hardWork();
+		return null;
+	}
+
+}
