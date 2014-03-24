@@ -1,0 +1,24 @@
+package org.korso.apps.rsscursoandroid.db;
+
+import android.provider.BaseColumns;
+
+public class MembersContract {
+	
+	public static final String DB_NAME ="feeds_db";
+
+	private MembersContract(){}
+	
+	//Implementing BaseColumns we make that our new class has an _id used in android
+	public static class UsersTable implements BaseColumns{
+		
+		private UsersTable(){}
+		
+		public static final String TABLE_NAME = "feeds";		
+		public static final String USERNAME ="username";
+		public static final String EMAIL="email";
+		
+	}
+	
+	
+	
+}

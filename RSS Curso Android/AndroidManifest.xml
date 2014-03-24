@@ -33,6 +33,9 @@
          <activity 
             android:name="MyProgressBarActivity">            
         </activity>
+        <activity
+            android:name="ArticleActivity">           
+        </activity>
     </application>
 
 </manifest>

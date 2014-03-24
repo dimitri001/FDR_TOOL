@@ -12,8 +12,9 @@ public class MyListActivity3 extends ListActivity {
 	  super.onCreate(savedInstanceState);
 	  // setContentView(R.layout.main);
 	  // instantiate our custom adapter
-	  //MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.list_row, getResources().getStringArray(R.array.datos));
-	  MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.list_row, Colors);
+	  //MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row_layout, getResources().getStringArray(R.array.datos));
+	  //MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row, Colors);
+	  MyCustomAdapter adapter = new MyCustomAdapter(this, R.layout.my_list_row_layout, Colors);
 	  //setting the adapter
 	  setListAdapter(adapter);
 	 }

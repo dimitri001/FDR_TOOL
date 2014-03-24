@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=RSS Curso Android,03-Activity,01-Hola Mundo,04-Intent,ListActivity,05-Persistencia,AgoSampleActivity,android-ago
+task-tag-projects-already-scanned=RSS Curso Android,03-Activity,01-Hola Mundo,04-Intent,05-Persistencia,AgoSampleActivity,android-ago,ListActivityTimeAgo,RSS Curso Android V2,07-ContentProviderCalendar,08-MyContentProvider,08-MyContentProviderTest,test,09-Broadcast,08-MyContentProviderTest1,ListActivity,RegistroLlamadas,RegistroLlamadas2,10-Service,SAX-RSS-Reader

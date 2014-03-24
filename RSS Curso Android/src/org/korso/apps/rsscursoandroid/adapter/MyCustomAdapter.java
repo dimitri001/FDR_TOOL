@@ -10,10 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MyCustomAdapter extends ArrayAdapter<HashMap<String, String>> {
 	 
@@ -22,7 +20,7 @@ public class MyCustomAdapter extends ArrayAdapter<HashMap<String, String>> {
 	  private int layoutResourceId;
 	 
 	  private static int layout = R.layout.my_list_row_layout;
-	  private static String[] list = { "Blue", "Green", "Black" };
+	 // private static String[] list = { "Blue", "Green", "Black" };
 
 	  
      // public final String[] Colors = { "Blue", "Green", "Black" };

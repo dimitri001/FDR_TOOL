@@ -1,0 +1,61 @@
+package org.korso.apps.service;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+
+import org.xml.sax.SAXException;
+
+import nl.matshofman.saxrssreader.RssFeed;
+import nl.matshofman.saxrssreader.RssItem;
+import nl.matshofman.saxrssreader.RssReader;
+import android.util.Log;
+
+public class Dummy {
+
+	
+	private static final String TAG = "Dummy ";
+
+	public void hardWork(){
+		
+		Log.d(TAG, "hardWork start");
+		long endTime = System.currentTimeMillis() + 3*1000;
+		
+		URL url;
+		try {
+			url = new URL("http://www.sportlife.es/rss/all");			
+			RssFeed feed = RssReader.read(url);
+			ArrayList<RssItem> rssItems = feed.getRssItems();
+			for(RssItem rssItem : rssItems) {
+			    Log.i("RSS Reader", rssItem.getTitle());
+			}
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		
+		/*
+		while (System.currentTimeMillis() < endTime){
+			synchronized (this) {
+				try {
+					
+					long waitingTime= endTime - System.currentTimeMillis();
+					wait(waitingTime);
+					
+					Log.d(TAG, "hardWork waiting " + waitingTime);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+			
+			Log.d(TAG, "hardWork stop");
+			
+		}*/
+	}
+}

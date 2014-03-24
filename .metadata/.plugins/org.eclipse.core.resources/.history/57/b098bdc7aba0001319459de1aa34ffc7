@@ -1,0 +1,75 @@
+package data;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.UriMatcher;
+import android.database.Cursor;
+import android.net.Uri;
+
+public class MyContentProvider extends ContentProvider{
+
+	private MyDbHelper mDbHelper;
+	private static final int TYPE_USERS_COLLECTION = 1;
+	private static final int TYPE_USERS_ITEM = 2;
+
+	//here we create the UriMatcher here this name start with the s because this is an sctactic value
+	private static final UriMatcher sUriMatcher; 
+	 //here is initialized in an static block
+	//the uri's here are changed to number values
+	//Every uri that we create is added here
+
+	static {
+		sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
+		sUriMatcher.addURI(MembersContract.AUTHORITY, "/users", TYPE_USERS_COLLECTION);//all the regs
+		sUriMatcher.addURI(MembersContract.AUTHORITY, "/users#", TYPE_USERS_ITEM);//one reg
+	}
+	
+	//we instanced what we need here at the contentprovider
+	@Override
+	public boolean onCreate() {
+		mDbHelper = new MyDbHelper(getContext());
+		return true;
+	}
+	
+	//returns a mimetype used to filter the reg that correspond to a uri 
+	@Override
+	public String getType(Uri arg0) {
+		switch(sUriMatcher.match(uri)){
+		case TYPE_USERS_COLLECTION:
+			return "android.cursor.dir/vnd.org.korso.apps.mycontentprovider";
+		case TYPE_USERS_ITEM:
+			return "android.cursor.item/vnd.org.korso.apps.mycontentprovider";
+
+		}
+		return null;
+	}
+	
+	@Override
+	public int delete(Uri arg0, String arg1, String[] arg2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Uri insert(Uri arg0, ContentValues arg1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+	@Override
+	public Cursor query(Uri arg0, String[] arg1, String arg2, String[] arg3,
+			String arg4) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int update(Uri arg0, ContentValues arg1, String arg2, String[] arg3) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

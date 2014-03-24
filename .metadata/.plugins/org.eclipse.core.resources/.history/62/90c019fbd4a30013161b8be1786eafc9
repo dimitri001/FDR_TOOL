@@ -1,0 +1,127 @@
+package org.korso.apps.contentprovider.test;
+
+import data.MembersContract;
+import data.MembersContract.UsersTable;
+import data.MyContentProvider;
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.net.Uri;
+import android.test.ProviderTestCase2;
+import android.test.mock.MockContentResolver;
+
+public class MyContentProviderTest extends ProviderTestCase2<MyContentProvider> {
+
+	private MockContentResolver mContentResolver;//It calls to the contentprovider
+
+
+	public MyContentProviderTest() {
+		super(MyContentProvider.class, MembersContract.AUTHORITY);
+		// TODO Auto-generated constructor stub
+	}
+
+		
+	//Each method is considered a test, if there is any exception it`s a failed test
+	//otherwise the test is ok
+	
+	@Override
+	protected void setUp() throws Exception {
+		super.setUp();
+		mContentResolver = getMockContentResolver();
+	}
+	
+	public void testUsersUri(){
+		Uri expected = Uri.parse("content://org.korso.apps.mycontentprovider/users");
+		Uri actual = UsersTable.getUri();
+		
+		assertEquals(expected, actual);
+	}
+	
+	public void testInsert(){
+		
+		ContentValues values = new ContentValues();
+		values.put(MembersContract.UsersTable.USERNAME, "Clar Kent");
+		values.put(MembersContract.UsersTable.EMAIL,"super@man.com");
+		
+		Uri uri = UsersTable.getUri();
+		
+		Uri newUri = mContentResolver.insert(uri, values);
+		
+		assertNotNull(newUri);
+		
+	}
+	
+	public void testSelectOne(){
+		
+		//Fisrt we insert a row and we get an uri
+		ContentValues values = new ContentValues();
+		values.put(MembersContract.UsersTable.USERNAME, "Clar Kent");
+		values.put(MembersContract.UsersTable.EMAIL,"super@man.com");
+		
+		Uri uri = UsersTable.getUri();
+		
+		Uri newUri = mContentResolver.insert(uri, values);
+		
+		assertNotNull(newUri);
+		
+		//with uri of the register, we get a cursor with all the data of the row
+		
+		Cursor cursor =mContentResolver.query(newUri, null, null, null, null);
+		assertEquals(cursor.getCount(), 1);
+		
+		cursor.moveToFirst();
+		String email = cursor.getString(cursor.getColumnIndex(UsersTable.EMAIL));
+		String name = cursor.getString(cursor.getColumnIndex(UsersTable.USERNAME));
+		
+		assertEquals("super@man.com", email);
+		assertEquals("Clar Kent", name);
+		
+		
+	}
+	
+	
+	public void testSelectMany(){
+		
+		Uri newUri = insertReg("Clar Kent", "super@man.com");
+		insertReg("Barney Stinson", "barney@stinson.com");
+		insertReg("Ted Mosby", "ted@mosby.com");
+		//with uri of the register, we get a cursor with all the data of the row
+		
+		Cursor cursor =mContentResolver.query(UsersTable.getUri(), null, null, null, null);
+		assertEquals(cursor.getCount(), 3);
+		
+		compareReg(cursor,"Clar Kent","super@man.com");
+		compareReg(cursor,"Barney Stinson","barney@stinson.com");
+		compareReg(cursor,"Ted Mosby","ted@mosby.com");
+		
+	}
+	
+	public void compareReg(Cursor cursor, String myName, String myEmail){
+		
+		cursor.moveToNext();
+		
+		String name = cursor.getString(cursor.getColumnIndex(UsersTable.USERNAME));
+		String email = cursor.getString(cursor.getColumnIndex(UsersTable.EMAIL));
+		
+		assertEquals(myName, name);
+		assertEquals(myEmail, email);
+	}
+	
+	
+	public Uri insertReg(String name, String mail){
+	
+		//Fisrt we insert a row and we get an uri
+			ContentValues values = new ContentValues();
+			values.put(MembersContract.UsersTable.USERNAME,name);
+			values.put(MembersContract.UsersTable.EMAIL,mail);
+			
+			Uri uri = UsersTable.getUri();
+			
+			Uri newUri = mContentResolver.insert(uri, values);
+			
+			assertNotNull(newUri);
+			
+			return newUri;
+	}
+	
+
+}

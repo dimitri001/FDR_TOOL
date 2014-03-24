@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-import org.korso.apps.rsscursoandroid.db.FeedsContract.FeedsTable;
-import org.korso.apps.rsscursoandroid.db.MyDbHelper;
+import org.korso.apps.rsscursoandroid.data.MyDbHelper;
+import org.korso.apps.rsscursoandroid.data.FeedsContract.FeedsTable;
 import org.korso.apps.rsscursoandroid.widget.MyCustomAdapter;
 
 
@@ -29,6 +29,7 @@ public class ArticleListActivity extends ListActivity implements OnClickListener
 	private String[] paragraphs;
 	private String[] dates;
 	private MyCustomAdapter adapter;
+	private Context context = this;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,25 +45,10 @@ public class ArticleListActivity extends ListActivity implements OnClickListener
 		String[] headers = getResources().getStringArray(R.array.prueba_capital);
 		String[] paragraphs = getResources().getStringArray(R.array.prueba_pais);
 		String[] dates = getResources().getStringArray(R.array.prueba_pais);
-		*/String[] images = getResources().getStringArray(R.array.prueba_imagen);
-		
+		String[] images = getResources().getStringArray(R.array.prueba_imagen);
+		*/
  
-		Cursor cursor =fillTheFeeds();
-				
-		 if(cursor!=null){
-	     
-			 while(cursor.moveToNext()){	
-				 				 
-				 HashMap<String, String> entrada = new HashMap<String, String>();
-				 entrada.put("header", cursor.getString(cursor.getColumnIndex(FeedsTable.TITLE)));
-				 entrada.put("paragraph", cursor.getString(cursor.getColumnIndex(FeedsTable.CONTENT)));
-				 entrada.put("date", cursor.getString(cursor.getColumnIndex(FeedsTable.DATE)));
-				 entrada.put("image", cursor.getString(cursor.getColumnIndex(FeedsTable.IMAGE_URL)));
-					
-				 data.add(entrada);		
-
-			}
-		 }
+		
 		
 		
 		/*
@@ -109,6 +95,10 @@ public class ArticleListActivity extends ListActivity implements OnClickListener
 		
 		Toast.makeText(this, text, Toast.LENGTH_LONG).show();
 		
+		Intent intent = new Intent(context, ArticleActivity.class);
+		//here we put an extra parameter to put in the activity called 
+		intent.putExtra("EXTRA_ARTICLE",(HashMap<String,String>) l.getItemAtPosition(position));
+		startActivity(intent);
 		
 	}
 	
@@ -134,6 +124,40 @@ public class ArticleListActivity extends ListActivity implements OnClickListener
 		String orderBy = FeedsTable.DATE + " DESC";
 		return db.query(table, columns, selection, selectionArgs, groupBy, having, orderBy);
 		
+	}
+
+	public ArrayList< HashMap<String, String>> getFeeds(){
+	
+		ArrayList< HashMap<String, String>> data = new ArrayList< HashMap<String, String>>();
+		Cursor cursor =fillTheFeeds();
+				
+		 if(cursor!=null){
+	     
+			 while(cursor.moveToNext()){	
+				 				 
+				 HashMap<String, String> entrada = new HashMap<String, String>();
+				 entrada.put("header", cursor.getString(cursor.getColumnIndex(FeedsTable.TITLE)));
+				 entrada.put("paragraph", cursor.getString(cursor.getColumnIndex(FeedsTable.CONTENT)));
+				 entrada.put("date", cursor.getString(cursor.getColumnIndex(FeedsTable.DATE)));
+				 entrada.put("image", cursor.getString(cursor.getColumnIndex(FeedsTable.IMAGE_URL)));
+					
+				 data.add(entrada);		
+
+			}
+		 }
+		 return data;
+	}
+	@Override
+	protected void onStart() {
+		super.onStart();
+		adapter.addAll(getFeeds());//Here we load the cursor every time the app is started
+		
+	}
+
+	@Override
+	protected void onStop() {
+		adapter.clear();//Here we free the cursor, every time the app is stopped, because it uses so much memory
+		super.onStop();
 	}
 
 	

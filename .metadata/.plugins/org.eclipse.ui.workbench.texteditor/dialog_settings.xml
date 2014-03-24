@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="255" key="DIALOG_Y_ORIGIN"/>
-		<item value="590" key="DIALOG_X_ORIGIN"/>
+		<item value="123" key="DIALOG_Y_ORIGIN"/>
+		<item value="1000" key="DIALOG_X_ORIGIN"/>
 		<item value="380" key="DIALOG_HEIGHT"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,18 +13,19 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="createDataFeeds()" key="selection"/>
+		<item value="strWhere" key="selection"/>
 		<list key="findhistory">
-			<item value="createDataFeeds()"/>
-			<item value="Tableusers"/>
-			<item value="Table"/>
-			<item value="image"/>
-			<item value="content"/>
-			<item value="array"/>
-			<item value="simple_"/>
-			<item value="View"/>
+			<item value="sWhere"/>
+			<item value="where"/>
+			<item value="insert"/>
+			<item value="dummy"/>
+			<item value="cursor"/>
+			<item value="row"/>
+			<item value="RTICLE"/>
+			<item value="images"/>
 		</list>
 		<list key="replacehistory">
+			<item value="strWhere"/>
 		</list>
 	</section>
 </section>

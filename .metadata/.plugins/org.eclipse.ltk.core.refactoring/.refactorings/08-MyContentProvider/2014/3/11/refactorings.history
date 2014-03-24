@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;data&apos; to &apos;RegistroLlamadas/src&apos;&#x0D;&#x0A;- Original project: &apos;08-MyContentProvider&apos;&#x0D;&#x0A;- Destination element: &apos;RegistroLlamadas/src&apos;&#x0D;&#x0A;- Original element: &apos;08-MyContentProvider/src/data&apos;" description="Copy package" destination="=RegistroLlamadas/src" element1="/src&lt;data" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1394460792878" version="1.0"/>
+</session>

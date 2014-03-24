@@ -22,8 +22,8 @@ public class MyCustomAdapter extends ArrayAdapter<HashMap<String, String>> {
 	  private final ArrayList< HashMap<String, String>> data;
 	  private int layoutResourceId;
 	 
-	  private static int layout = R.layout.my_list_row_layout;
-	  private static String[] list = { "Blue", "Green", "Black" };
+	  //private static int layout = R.layout.my_list_row_layout;
+	  //private static String[] list = { "Blue", "Green", "Black" };
 
 	  
      // public final String[] Colors = { "Blue", "Green", "Black" };

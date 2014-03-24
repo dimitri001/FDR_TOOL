@@ -33,7 +33,7 @@ public class MyCustomAdapter extends ArrayAdapter<String> {
 	       LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	    		   //getLayoutInflater();
 	       //row = inflater.inflate(R.layout.list_row, parent, false);
-	       row= inflater.inflate(R.layout.rowlayout, parent, false);
+	       row= inflater.inflate(R.layout.my_list_row_layout, parent, false);
 	       
 	      }
 	      final int itemPosition = position;

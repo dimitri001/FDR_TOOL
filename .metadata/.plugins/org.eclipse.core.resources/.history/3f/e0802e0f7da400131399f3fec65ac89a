@@ -1,0 +1,11 @@
+package org.korso.apps.broadcast;
+
+import android.content.BroadcastReceiver;
+
+public class MyBroadcastReceiver extends BroadcastReceiver {
+
+	
+	private static final String TAG = "MyBroadcastReceiver";
+	
+	
+}

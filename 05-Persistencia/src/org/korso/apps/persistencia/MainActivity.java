@@ -6,8 +6,6 @@ import org.korso.apps.persistencia.db.MyDbHelper;
 import org.korso.apps.widget.MySimpleCursorAdapter;
 
 import android.os.Bundle;
-import android.provider.ContactsContract.CommonDataKinds.Email;
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.ContentValues;
 import android.content.Context;
@@ -15,12 +13,10 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v4.widget.CursorAdapter;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.Menu;
-import android.widget.Adapter;
 
 public class MainActivity extends ListActivity {
 
@@ -42,23 +38,34 @@ public class MainActivity extends ListActivity {
 		ContentValues values = new ContentValues();
 		values.put(UsersTable.EMAIL, "pepe@uno.man");
 		values.put(UsersTable.USERNAME, "Pepe");
-		String date= "2014-02-21T16:00:00.000Z";//letter Z means UTC, which replace the GMT (Greenwhich mean time) that why the time is diferent from the spanish mobile
+		String date= "2014-02-21T16:00:00.000Z";//letter Z means UTC, which replace the GMT (Greenwhich mean time) that´s why the time is different from the spanish mobile
 		Long millis = parseDate(date);
 		
+				
+		values.put(UsersTable.DATE, millis);
+		
+		long id = db.insert(UsersTable.TABLE_NAME,null, values);
+		
+		//Second value 
+		//values = new ContentValues();
+		values.put(UsersTable.EMAIL, "jose@uno.man");
+		values.put(UsersTable.USERNAME, "Jose");
+		//Just a test
 		Long now = System.currentTimeMillis();
 		millis = now - 50000;//we rest 50 seconds
 		
 		values.put(UsersTable.DATE, millis);
 		
-		long id = db.insert(UsersTable.TABLE_NAME,null, values);
+		id = db.insert(UsersTable.TABLE_NAME,null, values);
 		db.close();
 
 		Context context = this;
 		int layout = android.R.layout.simple_list_item_2 ;
-		Cursor c = null;
+		Cursor c = null; //we put null here because it uses so much memory
 		String[] from = new String[] {UsersTable.USERNAME, UsersTable.DATE};
 		int[] to = new int[] {android.R.id.text1, android.R.id.text2} ;
-		int flags = SimpleCursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER;
+		int flags = SimpleCursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER;// we use this flag because the adapter will be an observer 
+		//this means that any change in the database will be updated in the adapter
 		
 		//adapter = new SimpleCursorAdapter(context, layout, c, from, to, flags);
 		adapter = new MySimpleCursorAdapter(context, layout, c, from, to, flags);
@@ -113,12 +120,12 @@ public class MainActivity extends ListActivity {
 	@Override
 	protected void onStart() {
 		super.onStart();		
-		adapter.changeCursor(getUsers());
+		adapter.changeCursor(getUsers());//Here we load the cursor every time the app is started
 	}
 
 	@Override
 	protected void onStop() {	
-		adapter.changeCursor(null);
+		adapter.changeCursor(null);//Here we free the cursor, every time the app is stopped, because it uses so much memory
 		super.onStop();
 		
 	}

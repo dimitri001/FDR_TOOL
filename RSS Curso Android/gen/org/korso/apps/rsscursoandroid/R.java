@@ -35,41 +35,47 @@ public final class R {
         public static final int text_small=0x7f050004;
     }
     public static final class drawable {
-        public static final int android_robot_peque=0x7f020000;
-        public static final int android_robot_peque1=0x7f020001;
-        public static final int background=0x7f020002;
-        public static final int background_azul=0x7f020003;
-        public static final int bg_noise=0x7f020004;
-        public static final int bg_shadow=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int logo_android=0x7f020007;
-        public static final int panel_green=0x7f020008;
-        public static final int panel_white=0x7f020009;
-        public static final int to_list=0x7f02000a;
+        public static final int android_blue_peq=0x7f020000;
+        public static final int android_robot_peque=0x7f020001;
+        public static final int android_robot_peque1=0x7f020002;
+        public static final int background=0x7f020003;
+        public static final int background_azul=0x7f020004;
+        public static final int bg_noise=0x7f020005;
+        public static final int bg_shadow=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int logo_android=0x7f020008;
+        public static final int panel_green=0x7f020009;
+        public static final int panel_white=0x7f02000a;
+        public static final int to_list=0x7f02000b;
     }
     public static final class id {
         public static final int about_subtitle=0x7f060001;
         public static final int about_title=0x7f060000;
         public static final int about_version=0x7f060002;
-        public static final int action_settings=0x7f06000d;
-        public static final int date=0x7f06000c;
-        public static final int header=0x7f060009;
-        public static final int imageView1=0x7f060006;
-        public static final int imageView2=0x7f060005;
-        public static final int linearLayout1=0x7f060004;
-        public static final int linearLayout2=0x7f060007;
-        public static final int row_image=0x7f06000b;
-        public static final int text=0x7f06000a;
-        public static final int tvAbout=0x7f060003;
-        public static final int tvGoArticleList=0x7f060008;
+        public static final int action_settings=0x7f060011;
+        public static final int date=0x7f060010;
+        public static final int date_article=0x7f060006;
+        public static final int header=0x7f06000d;
+        public static final int header_article=0x7f060004;
+        public static final int imageView1=0x7f06000a;
+        public static final int imageView2=0x7f060009;
+        public static final int image_article=0x7f060005;
+        public static final int linearLayout1=0x7f060008;
+        public static final int linearLayout2=0x7f06000b;
+        public static final int row_image=0x7f06000f;
+        public static final int text=0x7f06000e;
+        public static final int text_article=0x7f060003;
+        public static final int tvAbout=0x7f060007;
+        public static final int tvGoArticleList=0x7f06000c;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
-        public static final int activity_article_list=0x7f030001;
-        public static final int activity_progress_bar=0x7f030002;
-        public static final int activity_splash=0x7f030003;
-        public static final int my_list_row_layout=0x7f030004;
-        public static final int row_layout=0x7f030005;
+        public static final int activity_article=0x7f030001;
+        public static final int activity_article_list=0x7f030002;
+        public static final int activity_progress_bar=0x7f030003;
+        public static final int activity_splash=0x7f030004;
+        public static final int my_list_row_layout=0x7f030005;
+        public static final int row_layout=0x7f030006;
     }
     public static final class menu {
         public static final int splash=0x7f0a0000;
