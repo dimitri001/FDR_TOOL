@@ -1,7 +1,0 @@
-package org.korso.apps.listactivity;
-
-import android.app.ListActivity;
-
-public class MyListActivity extends ListActivity {
-
-}

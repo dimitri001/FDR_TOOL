@@ -1,5 +1,0 @@
-package org.korso.apps.activity;
-
-public class Activity2 extends MainActivity {
-
-}
